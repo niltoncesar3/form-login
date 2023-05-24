@@ -60,14 +60,14 @@ export default function LoginForm() {
         {/* Coloque a mensagem de erro de login na div abaixo. Mostre a div somente se houver uma mensagem de erro. */}
         { error && <div className='errorMessage'>{error.message}</div>}
         <div className='row'>
-          <label htmlFor={'email'}>Email</label>
+          <label htmlFor={'email'}>Email : </label>
           <input 
           id={'email'}
           value={email}
           onChange={handleEmail}/>
         </div>
         <div className='row'>
-          <label htmlFor={'password'}>Password</label>
+          <label htmlFor={'password'}>Password : </label>
           <input 
           id={'password'}
           type={'password'}

@@ -6,7 +6,7 @@ export function login({ email, password }) {
       if (password === '123456' && !!email) {
         resolve();
       } else {
-        reject({ message: 'e-mail or password wrong.' });
+        reject({ message: 'E-mail ou senha incorreta.' });
       }
     }, delay);
   });
